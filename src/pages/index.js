@@ -5,6 +5,7 @@ import Header from "../components/Header";
 import WeOffer from "../components/WeOffer";
 import WeOfferYou from "../components/WeOfferYou";
 import Pricing from "../components/Pricing";
+import ContactForm from "../components/ContactForm";
 
 const IndexPage = () => {
   return (
@@ -14,6 +15,7 @@ const IndexPage = () => {
       <WeOffer />
       <WeOfferYou />
       <Pricing />
+      <ContactForm />
     </div>
   );
 };

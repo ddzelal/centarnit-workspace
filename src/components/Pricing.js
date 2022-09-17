@@ -3,7 +3,6 @@ import React from 'react'
 function Pricing() {
   return (
     <div className='pricing-container'>
-    <h2>Pricing</h2>
     <div className='items-pricing-container'>
     <div className='card-pricing'>
     <h1>DAILY</h1>

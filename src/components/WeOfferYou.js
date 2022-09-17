@@ -41,6 +41,9 @@ function WeOfferYou() {
 
     </div>
     <div className='weofferyou-right'>
+    <div className='image-one-container'>
+    <img className='image-one' alt='workingSpace' src='https://www.wework.com/ideas/wp-content/uploads/sites/4/2020/08/Web_150DPI-20150206_WeWork_Covid-Response_041_twitter.jpg'></img>
+    </div>
 
     </div>
 
