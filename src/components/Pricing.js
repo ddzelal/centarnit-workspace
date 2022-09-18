@@ -1,6 +1,7 @@
 import React from 'react'
 
 function Pricing() {
+  //Pricing card!
   return (
     <div className='pricing-container'>
     <div className='items-pricing-container'>
