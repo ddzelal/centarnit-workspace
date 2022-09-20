@@ -1,6 +1,7 @@
 import React from 'react'
 
 function Pricing() {
+ 
   //Pricing card!
   return (
     <div className='pricing-container'>
@@ -34,3 +35,4 @@ function Pricing() {
 }
 
 export default Pricing
+
