@@ -6,12 +6,14 @@ import WeOffer from "../components/WeOffer";
 import WeOfferYou from "../components/WeOfferYou";
 import Pricing from "../components/Pricing";
 import ContactForm from "../components/ContactForm";
+import HelpersContainer from "../components/HelpersContainer";
 
 const IndexPage = () => {
   return (
     <div className="App">
       <Header />
       <AboutUs />
+      <HelpersContainer />
       <WeOffer />
       <WeOfferYou />
       <Pricing />
