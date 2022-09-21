@@ -1,10 +1,17 @@
-import React from "react";
+import React, { useEffect } from "react";
 import WifiIcon from "@mui/icons-material/Wifi";
+import Aos from "aos";
+import 'aos/dist/aos.css'
 
 function WeOffer() {
+
+  useEffect(()=> {
+    Aos.init({duration:2000})
+  }, [])
+
   return (
     <div className="weoffer-container">
-      <div className="card-offer">
+      <div data-aos="fade-right" className="card-offer">
         <div className="h1-offer">
           <WifiIcon />
           <h3>High-Speed Wireless</h3>
@@ -22,7 +29,7 @@ function WeOffer() {
 
       {/* card */}
 
-      <div className="card-offer">
+      <div className="card-offer" data-aos="fade-down">
         <div className="h1-offer">
           <WifiIcon />
           <h3>High-Speed Wireless</h3>
@@ -39,7 +46,7 @@ function WeOffer() {
       </div>
       {/* card */}
 
-      <div className="card-offer">
+      <div className="card-offer" data-aos="fade-left">
         <div className="h1-offer">
           <WifiIcon />
           <h3>High-Speed Wireless</h3>

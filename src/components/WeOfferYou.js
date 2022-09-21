@@ -1,6 +1,13 @@
-import React from 'react'
+import React, { useEffect } from 'react'
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 
 function WeOfferYou() {
+
+  useEffect(()=>{
+    Aos.init({duration:2000})
+  },[])
+
   return (
     <div className='weofferyou-container'>
     <div className='weofferyou-left'>
@@ -15,21 +22,21 @@ function WeOfferYou() {
     <div className='container-items-weofferyou'>
     <div className='items-container'>
         <div className='items-number'>
-          <h1>21</h1>
+          <h1 data-aos="flip-left">21</h1>
         </div>
         <div className='items-text'>
           <h6>Thinkers Sef</h6>
           <h6>Find Sed</h6>
         </div>
         <div className='items-number'>
-          <h1>21</h1>
+          <h1 data-aos="flip-left">21</h1>
         </div>
         <div className='items-text'>
           <h6>Thinkers Sef</h6>
           <h6>Find Sed</h6>
         </div>
         <div className='items-number'>
-          <h1>21</h1>
+          <h1 data-aos="flip-left">21</h1>
         </div>
         <div className='items-text'>
           <h6>Thinkers Sef</h6>

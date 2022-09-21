@@ -8,7 +8,10 @@ import Pricing from "../components/Pricing";
 import ContactForm from "../components/ContactForm";
 import HelpersContainer from "../components/HelpersContainer";
 
+
 const IndexPage = () => {
+
+  
   return (
     <div className="App">
       <Header />
